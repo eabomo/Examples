@@ -24,8 +24,7 @@ import json
 # Once: Salt Lake City, New Orleans, Memphis, Pittsburgh, San Diego, Fresno, Colorado Springs, Kansas City, Minneapolis, Charlotte
 # Twice: All others
 #
-# We'd need a lot more detail to make this problem realistic! 
-# For example, I don't even know if you can fly directly between each pair of cities.
+# DISCLAIMER: We'd need A LOT more information and detail to make this problem realistic! 
 # 
 # For each pair of possible distribution centers, solve the following IP
 # min sum_(i,j) n_j * c_(i, j) * x_(i, j)
